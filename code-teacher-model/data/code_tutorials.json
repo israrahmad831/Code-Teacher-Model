@@ -1,12 +1,267 @@
 [
   {
     "language": "python",
+    "question": "How to print a string in Python?",
+    "answer": "Use the print function. Example:\nprint('Hello, World!')"
+  },
+  {
+    "language": "python",
+    "question": "How do I print something in python?",
+    "answer": "Use the print function. Example:\nprint('Hello, World!')"
+  },
+  {
+    "language": "python",
+    "question": "Show me how to print text in python",
+    "answer": "Use the print function. Example:\nprint('Hello, World!')"
+  },
+  {
+    "language": "python",
+    "question": "print strng in pyhton",
+    "answer": "Use the print function. Example:\nprint('Hello, World!')"
+  },
+  {
+    "language": "python",
+    "question": "how print work in python?",
+    "answer": "Use the print function. Example:\nprint('Hello, World!')"
+  },
+  {
+    "language": "python",
+    "question": "How to get user input in Python?",
+    "answer": "Use the input function. Example:\nname = input('Enter your name: ')"
+  },
+  {
+    "language": "python",
     "question": "How to write a for loop in Python?",
-    "answer": "Use `for i in range(n)` syntax. Example:\nfor i in range(5):\n    print(i)"
+    "answer": "Use for loop. Example:\nfor i in range(5):\n    print(i)"
+  },
+  {
+    "language": "python",
+    "question": "How to write a while loop in Python?",
+    "answer": "Use the while keyword. Example:\ni = 0\nwhile i < 5:\n    print(i)\n    i += 1"
+  },
+  {
+    "language": "python",
+    "question": "How to write a function with parameters in Python?",
+    "answer": "Define parameters inside parentheses. Example:\ndef add(a, b):\n    return a + b"
+  },
+  {
+    "language": "python",
+    "question": "How to return a value from a function in Python?",
+    "answer": "Use the return statement. Example:\ndef square(x):\n    return x * x"
+  },
+  {
+    "language": "python",
+    "question": "How to import a module in Python?",
+    "answer": "Use the import statement. Example:\nimport math"
+  },
+  {
+    "language": "python",
+    "question": "How to handle exceptions in Python?",
+    "answer": "Use try and except blocks. Example:\ntry:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Cannot divide by zero')"
+  },
+  {
+    "language": "python",
+    "question": "How to create a list in Python?",
+    "answer": "Use square brackets. Example:\nnumbers = [1, 2, 3, 4, 5]"
+  },
+  {
+    "language": "python",
+    "question": "How to append to a list in Python?",
+    "answer": "Use the append method. Example:\nnumbers.append(6)"
+  },
+  {
+    "language": "python",
+    "question": "How to iterate over a list in Python?",
+    "answer": "Use a for loop. Example:\nfor num in numbers:\n    print(num)"
+  },
+  {
+    "language": "python",
+    "question": "How to check if an item is in a list in Python?",
+    "answer": "Use the in keyword. Example:\nif 3 in numbers:\n    print('Found!')"
+  },
+  {
+    "language": "python",
+    "question": "How to create a dictionary in Python?",
+    "answer": "Use curly braces. Example:\nd = {'a': 1, 'b': 2}"
+  },
+  {
+    "language": "python",
+    "question": "How to access dictionary values in Python?",
+    "answer": "Use the key in square brackets. Example:\nprint(d['a'])"
+  },
+  {
+    "language": "python",
+    "question": "How to loop through a dictionary in Python?",
+    "answer": "Use items method. Example:\nfor key, value in d.items():\n    print(key, value)"
+  },
+  {
+    "language": "python",
+    "question": "How to write a class in Python?",
+    "answer": "Use the class keyword. Example:\nclass Person:\n    def __init__(self, name):\n        self.name = name"
+  },
+  {
+    "language": "python",
+    "question": "How to create an object in Python?",
+    "answer": "Call the class. Example:\np = Person('Alice')"
+  },
+  {
+    "language": "python",
+    "question": "How to inherit a class in Python?",
+    "answer": "Specify the parent class in parentheses. Example:\nclass Student(Person):\n    pass"
+  },
+  {
+    "language": "python",
+    "question": "How to open a file in Python?",
+    "answer": "Use the open function. Example:\nf = open('file.txt', 'r')"
+  },
+  {
+    "language": "python",
+    "question": "How to read a file in Python?",
+    "answer": "Use the read method. Example:\ncontent = f.read()"
+  },
+  {
+    "language": "python",
+    "question": "How to write to a file in Python?",
+    "answer": "Open the file in write mode. Example:\nf = open('file.txt', 'w')\nf.write('Hello')"
+  },
+  {
+    "language": "python",
+    "question": "How to close a file in Python?",
+    "answer": "Use the close method. Example:\nf.close()"
+  },
+  {
+    "language": "python",
+    "question": "How to use list comprehension in Python?",
+    "answer": "Use brackets with an expression. Example:\nsquares = [x*x for x in range(10)]"
+  },
+  {
+    "language": "python",
+    "question": "How to use lambda functions in Python?",
+    "answer": "Use the lambda keyword. Example:\nsquare = lambda x: x*x"
+  },
+  {
+    "language": "python",
+    "question": "How to sort a list in Python?",
+    "answer": "Use the sort method. Example:\nnumbers.sort()"
+  },
+  {
+    "language": "python",
+    "question": "How to reverse a list in Python?",
+    "answer": "Use the reverse method. Example:\nnumbers.reverse()"
   },
   {
     "language": "javascript",
-    "question": "How to define a function?",
-    "answer": "Use `function` keyword. Example:\nfunction greet() {\n  console.log('Hi');\n}"
+    "question": "How to print a string in JavaScript?",
+    "answer": "Use console.log. Example:\nconsole.log('Hello, World!');"
+  },
+  {
+    "language": "javascript",
+    "question": "How to get user input in JavaScript?",
+    "answer": "Use prompt. Example:\nvar name = prompt('Enter your name:');"
+  },
+  {
+    "language": "javascript",
+    "question": "How to write a for loop in JavaScript?",
+    "answer": "Use for loop. Example:\nfor (let i = 0; i < 5; i++) {\n  console.log(i);\n}"
+  },
+  {
+    "language": "javascript",
+    "question": "How to write a while loop in JavaScript?",
+    "answer": "Use the while keyword. Example:\nlet i = 0;\nwhile (i < 5) {\n  console.log(i);\n  i++;\n}"
+  },
+  {
+    "language": "javascript",
+    "question": "How to write a function with parameters in JavaScript?",
+    "answer": "Define parameters inside parentheses. Example:\nfunction add(a, b) {\n  return a + b;\n}"
+  },
+  {
+    "language": "javascript",
+    "question": "How to return a value from a function in JavaScript?",
+    "answer": "Use the return statement. Example:\nfunction square(x) {\n  return x * x;\n}"
+  },
+  {
+    "language": "javascript",
+    "question": "How to import a module in JavaScript?",
+    "answer": "Use import statement (ES6). Example:\nimport { readFile } from 'fs';"
+  },
+  {
+    "language": "javascript",
+    "question": "How to handle exceptions in JavaScript?",
+    "answer": "Use try and catch blocks. Example:\ntry {\n  throw new Error('Oops');\n} catch (e) {\n  console.log(e.message);\n}"
+  },
+  {
+    "language": "javascript",
+    "question": "How to create an array in JavaScript?",
+    "answer": "Use square brackets. Example:\nlet numbers = [1, 2, 3, 4, 5];"
+  },
+  {
+    "language": "javascript",
+    "question": "How to append to an array in JavaScript?",
+    "answer": "Use the push method. Example:\nnumbers.push(6);"
+  },
+  {
+    "language": "javascript",
+    "question": "How to iterate over an array in JavaScript?",
+    "answer": "Use a for loop. Example:\nfor (let num of numbers) {\n  console.log(num);\n}"
+  },
+  {
+    "language": "javascript",
+    "question": "How to check if an item is in an array in JavaScript?",
+    "answer": "Use the includes method. Example:\nif (numbers.includes(3)) {\n  console.log('Found!');\n}"
+  },
+  {
+    "language": "javascript",
+    "question": "How to create an object in JavaScript?",
+    "answer": "Use curly braces. Example:\nlet obj = {a: 1, b: 2};"
+  },
+  {
+    "language": "javascript",
+    "question": "How to access object values in JavaScript?",
+    "answer": "Use the key with dot or bracket notation. Example:\nconsole.log(obj.a);"
+  },
+  {
+    "language": "javascript",
+    "question": "How to loop through an object in JavaScript?",
+    "answer": "Use for...in loop. Example:\nfor (let key in obj) {\n  console.log(key, obj[key]);\n}"
+  },
+  {
+    "language": "javascript",
+    "question": "How to write a class in JavaScript?",
+    "answer": "Use the class keyword. Example:\nclass Person {\n  constructor(name) {\n    this.name = name;\n  }\n}"
+  },
+  {
+    "language": "javascript",
+    "question": "How to create an object from a class in JavaScript?",
+    "answer": "Use the new keyword. Example:\nlet p = new Person('Alice');"
+  },
+  {
+    "language": "javascript",
+    "question": "How to inherit a class in JavaScript?",
+    "answer": "Use extends keyword. Example:\nclass Student extends Person {}"
+  },
+  {
+    "language": "javascript",
+    "question": "How to open a file in JavaScript?",
+    "answer": "Use fs module in Node.js. Example:\nconst fs = require('fs');\nfs.readFile('file.txt', 'utf8', (err, data) => {\n  if (err) throw err;\n  console.log(data);\n});"
+  },
+  {
+    "language": "javascript",
+    "question": "How to write to a file in JavaScript?",
+    "answer": "Use fs.writeFile in Node.js. Example:\nfs.writeFile('file.txt', 'Hello', err => {\n  if (err) throw err;\n});"
+  },
+  {
+    "language": "javascript",
+    "question": "How to use arrow functions in JavaScript?",
+    "answer": "Use => syntax. Example:\nconst square = x => x * x;"
+  },
+  {
+    "language": "javascript",
+    "question": "How to sort an array in JavaScript?",
+    "answer": "Use the sort method. Example:\nnumbers.sort();"
+  },
+  {
+    "language": "javascript",
+    "question": "How to reverse an array in JavaScript?",
+    "answer": "Use the reverse method. Example:\nnumbers.reverse();"
   }
 ]

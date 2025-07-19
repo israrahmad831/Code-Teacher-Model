@@ -1,5 +1,6 @@
 import json
 import yaml
+import random
 from datasets import Dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments
 
@@ -11,8 +12,9 @@ with open("config/config.yaml") as f:
 with open("data/code_tutorials.json") as f:
     raw_data = json.load(f)
 
-# Prepare text in "Q: question A: answer" format
+# Prepare text in "Q: question A: answer" format and shuffle
 texts = [f"Q: {item['question']} A: {item['answer']}" for item in raw_data]
+random.shuffle(texts)
 dataset = Dataset.from_dict({"text": texts})
 
 # Load tokenizer and model
@@ -43,10 +45,11 @@ tokenized_dataset = dataset.map(tokenize_function, batched=True)
 training_args = TrainingArguments(
     output_dir=config["save_dir"],
     overwrite_output_dir=True,
-    num_train_epochs=config["epochs"],
+    num_train_epochs=8,  # Increased epochs
     per_device_train_batch_size=config["batch_size"],
     save_steps=10_000,
     save_total_limit=2,
+    learning_rate=5e-5,  # Lower learning rate
 )
 
 # Initialize Trainer
