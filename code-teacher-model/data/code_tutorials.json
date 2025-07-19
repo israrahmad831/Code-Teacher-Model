@@ -1,0 +1,12 @@
+[
+  {
+    "language": "python",
+    "question": "How to write a for loop in Python?",
+    "answer": "Use `for i in range(n)` syntax. Example:\nfor i in range(5):\n    print(i)"
+  },
+  {
+    "language": "javascript",
+    "question": "How to define a function?",
+    "answer": "Use `function` keyword. Example:\nfunction greet() {\n  console.log('Hi');\n}"
+  }
+]

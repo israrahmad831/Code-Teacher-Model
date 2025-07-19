@@ -1,0 +1,5 @@
+model_name: "distilgpt2"
+epochs: 3
+batch_size: 4
+max_length: 128
+save_dir: "../models/final"
